@@ -1,0 +1,19 @@
+*{
+    margin: 0 auto;
+    background: yellow;
+    font-family:  monospace; 
+    font-size:large;
+    padding: 5px;
+}
+
+table, th{
+    border: 2px solid green;
+}
+
+th{
+    background: yellowgreen;
+}
+
+td{
+    background:plum;
+}

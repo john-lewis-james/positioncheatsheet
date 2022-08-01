@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Position Cheatsheet</title>
+        <link rel="stylesheet" href="positionCheatsheet.css">
+    </head> 
+
+    <body>
+
+        <table>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Code Example</th>
+            </tr>
+            <tr>
+                <td>Static</td>
+                <td>Static position is the default for elements, and  doesn't give elements any special positioning other than to fit the flow of the page.</td>
+                <td>div.static { <br>
+                    position: static; <br>
+                    border: 3px solid #73AD21; <br>
+                  }
+                  </td>
+            </tr>
+            <tr>
+                <td>Relative</td>
+                <td>You can position the element relative to it's default static position using offset values of up, down, left and right.</td>
+                <td>.green-box { <br>
+                    background-color: green; <br>
+                    position: relative; <br>
+                    top: 50px; <br>
+                    left: 120px; <br>
+                  }
+                  </td>
+            </tr>
+            <tr>
+                <td>Absolute</td>
+                <td>Other elements on a page will ignore absolute elements so you are free to move it wherever you wish.</td>
+                <td>main{ <br>
+                    position: absolute; <br>
+                    top: 115px;<br>
+                    left:0px;<br>
+                    right:0px;<br>
+                }</td>
+            </tr>
+            <tr>
+                <td>Fixed</td>
+                <td>If you set an elements position to fixed, it will not scroll with the page but will remain in it's place. This is commonly done for headers and footers.</td>
+                <td>.title {<br>
+                    position: fixed;<br>
+                    top: 0px;<br>
+                    left: 0px;<br>
+                  }
+                  </td>
+            </tr>
+            <tr>
+                <td>Sticky</td>
+                <td>A sticky element will scroll with the page until a specified point, defined by offset values, at which it will stick.</td>
+                <td>.box-bottom {<br>
+                    background-color: darkgreen;<br>
+                    position: sticky;<br>
+                    top: 240px;<br>
+                  }
+                  </td>
+            </tr>
+
+
+
+        </table>
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
